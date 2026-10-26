@@ -93,7 +93,7 @@ document
   .querySelectorAll("#beranda, #pasangan, #cerita, #acara, #galeri")
   .forEach((section) => navigationObserver.observe(section));
 
-const weddingDate = new Date("2027-09-18T08:00:00+07:00").getTime();
+const weddingDate = new Date("2027-01-23T08:00:00+07:00").getTime();
 function updateCountdown() {
   const remaining = Math.max(0, Math.floor((weddingDate - Date.now()) / 1000));
   const values = {

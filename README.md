@@ -1,4 +1,4 @@
-# Naya & Arga — A Love Worth Watching
+# Naya & Arga: A Love Worth Watching
 
 Undangan pernikahan fiktif bergaya layanan streaming, dibuat dengan HTML, CSS, Bootstrap 5, JavaScript, Node.js, dan PostgreSQL Neon. Tidak memakai framework frontend atau halaman admin.
 
@@ -73,7 +73,7 @@ RSVP berisi nama, status, jumlah tamu, dan waktu. Ucapan berisi nama, pesan, dan
 - Gambar: ganti file di `public/assets/images/` dengan nama yang sama, atau ubah referensinya di HTML/CSS.
 - Musik: ganti file audio dan URL pada elemen `<audio>`.
 - Rekening BCA 10 digit dan Mandiri 13 digit dibuat secara acak untuk data fiktif. Nomor acak tidak terverifikasi sebagai rekening pasangan; jangan digunakan untuk transfer. Ganti teks rekening, nama pemilik, dan atribut `data-account` sekaligus sebelum digunakan sungguhan.
-- Pernikahan: Sabtu, **18 September 2027**, 08.00 WIB. Batas konfirmasi: **11 September 2027**.
+- Pernikahan: Sabtu, **23 Januari 2027**, 08.00 WIB. Batas konfirmasi: **16 Januari 2027**.
 - Pasangan, keluarga, dan acara adalah fiktif. Venue menggunakan lokasi nyata JW Marriott Hotel Surabaya, Jl. Embong Malang No. 85–89, Surabaya, Jawa Timur 60261. Peta menunjuk langsung ke hotel; foto tetap ilustrasi pernikahan dan bukan dokumentasi hotel atau bukti reservasi.
 - Di ponsel, empat episode cerita disusun vertikal agar seluruh isi dapat dibaca lewat scroll biasa.
 

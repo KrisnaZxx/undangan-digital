@@ -19,9 +19,9 @@ test("tanggal undangan, countdown, rekening, peta, dan library ikon konsisten", 
   const config = JSON.parse(
     await readFile(new URL("../vercel.json", import.meta.url), "utf8"),
   );
-  assert.match(html, /18 September 2027/);
-  assert.match(html, /18\.09\.2027/);
-  assert.match(script, /2027-09-18T08:00:00\+07:00/);
+  assert.match(html, /23 Januari 2027/);
+  assert.match(html, /23\.01\.2027/);
+  assert.match(script, /2027-01-23T08:00:00\+07:00/);
   assert.ok(!html.includes("2026"));
   const accounts = [...html.matchAll(/data-account="(\d+)"/g)].map(
     (match) => match[1],
