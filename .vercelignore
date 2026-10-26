@@ -1,0 +1,8 @@
+config/database.local.json
+docs/
+tests/
+node_modules/
+.git/
+.env*
+tmp/
+*.log

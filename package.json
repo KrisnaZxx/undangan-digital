@@ -1,0 +1,22 @@
+{
+  "name": "naya-arga-wedding",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Undangan pernikahan sinematik dengan HTML, Bootstrap, JavaScript, Node.js, dan PostgreSQL.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "node --test",
+    "test:integration": "node scripts/check-integration.js",
+    "db:setup": "node scripts/setup-db.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.2"
+  }
+}
