@@ -431,22 +431,6 @@ h3 {
 .nav-rsvp:hover {
   color: white;
 }
-.couple-avatar {
-  width: 33px;
-  height: 33px;
-  border-radius: 3px;
-  background: #6c2628;
-  color: white;
-  align-items: center;
-  justify-content: center;
-  font-family: Georgia, serif;
-  font-size: 12px;
-  margin-left: 8px;
-}
-.couple-avatar .bi {
-  font-size: 9px;
-  margin: 1px;
-}
 .navbar-toggler {
   border: 1px solid #ffffff30;
   padding: 6px;
